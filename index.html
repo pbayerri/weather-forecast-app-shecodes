@@ -6,50 +6,69 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="src/style.css"
+    />
     <title>Weather Forecast App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input
-          type="search"
-          placeholder="Enter a city..."
-          required
-        />
-        <input
-          type="submit"
-          value="Search"
-        />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Barcelona 📍</h1>
-        <p>sunny skies</p>
-        <h2>25ºC</h2>
-      </div>
-      <div>☀️</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+          />
+          <input
+            type="submit"
+            value="Search"
+          />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Barcelona 📍</h1>
+          <p>Tuesday 12:36, sunny skies</p>
+          <h2>25ºC</h2>
+        </div>
+        <div>☀️</div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a
-        href="https://github.com/pbayerri"
-        target="_blank"
-        >Paula Bayerri,</a
-      >
-      is
-      <a
-        href="https://github.com/pbayerri/weather-forecast-app-shecodes"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a
-        href="https://weather-app-2025-shecodes.netlify.app/"
-        target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a
+          href="https://github.com/pbayerri"
+          target="_blank"
+          >Paula Bayerri,</a
+        >
+        is
+        <a
+          href="https://github.com/pbayerri/weather-forecast-app-shecodes"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a
+          href="https://weather-app-2025-shecodes.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
