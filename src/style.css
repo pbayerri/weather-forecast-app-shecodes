@@ -40,6 +40,9 @@ header {
 main {
   padding: 30px 0;
 }
+strong {
+  color: rgb(226, 43, 134);
+}
 .weather-app-data {
   display: flex;
   justify-content: space-between;
